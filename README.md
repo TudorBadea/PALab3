@@ -39,11 +39,3 @@ Create all the objects given in the example.
 
 ## Usage
 Run the main class for the compulsory part.
-
-## Output
-#### Compulsory
-
-```
-City{nodes=[Hotel{rank=1, openingTime=08:00, closingTime=00:00, ticketPrice=150.0}, Museum{openingTime=10:00, closingTime=20:00, ticketPrice=10.0}, Museum{openingTime=09:30, closingTime=20:00, ticketPrice=20.0}, Church{openingTime=07:00, closingTime=00:00}, Church{openingTime=06:00, closingTime=00:00}, Restaurant{openingTime=08:00, closingTime=23:00, rank=2}]}
-
-```
