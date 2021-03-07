@@ -49,7 +49,9 @@ public class Restaurant extends Location implements Classifiable, Visitable {
     @Override
     public String toString() {
         return "Restaurant{" +
-                "openingTime=" + openingTime +
+                "name='" + name + '\'' +
+                ", cost=" + cost +
+                ", openingTime=" + openingTime +
                 ", closingTime=" + closingTime +
                 ", rank=" + rank +
                 '}';

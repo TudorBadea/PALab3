@@ -4,12 +4,12 @@ import java.util.HashMap;
 import java.util.Map;
 
 public abstract class Location implements Comparable<Location> {
-    private String name;
-    private Map<Location, Integer> cost = new HashMap<>();
+    protected String name;
+    protected Map<Location, Integer> cost;
 
     public Location(String name, Map<Location, Integer> cost) {
         this.name = name;
-        this.cost = cost;
+        this.cost = new HashMap<Location, Integer>();
     }
 
     public Location(){
@@ -28,8 +28,9 @@ public abstract class Location implements Comparable<Location> {
         return cost;
     }
 
-    public void setCost(Map<Location, Integer> cost) {
-        this.cost = cost;
+    public void setCost(Location location, int value) {
+        HashMap cost = new HashMap<Location, Integer>();
+        cost.put(location, cost);
     }
 
     @Override

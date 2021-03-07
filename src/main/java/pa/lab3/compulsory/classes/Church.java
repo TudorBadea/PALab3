@@ -39,6 +39,8 @@ public class Church extends Location implements Visitable {
         return "Church{" +
                 "openingTime=" + openingTime +
                 ", closingTime=" + closingTime +
+                ", name='" + name + '\'' +
+                ", cost=" + cost +
                 '}';
     }
 }

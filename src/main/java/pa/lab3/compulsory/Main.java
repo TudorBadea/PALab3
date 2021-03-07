@@ -37,14 +37,24 @@ public class Main {
         v6.setClosingTime(LocalTime.parse("23:00"));
         v6.setRank(2);
 
+        v1.setCost(v2,10);
+        v1.setCost(v3,50);
+        v2.setCost(v3,20);
+        v3.setCost(v2,20);
+        v2.setCost(v4,20);
+        v2.setCost(v5,10);
+        v3.setCost(v4,20);
+        v4.setCost(v5,30);
+        v5.setCost(v4,30);
+        v4.setCost(v6,10);
+        v5.setCost(v6,20);
+
+
         city.addLocation(v1);
         city.addLocation(v2);
         city.addLocation(v3);
         city.addLocation(v4);
         city.addLocation(v5);
         city.addLocation(v6);
-
-        System.out.println(city);
-
     }
 }

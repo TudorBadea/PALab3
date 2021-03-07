@@ -49,7 +49,9 @@ public class Museum extends Location implements Visitable, Payable {
     @Override
     public String toString() {
         return "Museum{" +
-                "openingTime=" + openingTime +
+                "name='" + name + '\'' +
+                ", cost=" + cost +
+                ", openingTime=" + openingTime +
                 ", closingTime=" + closingTime +
                 ", ticketPrice=" + ticketPrice +
                 '}';

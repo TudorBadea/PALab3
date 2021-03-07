@@ -66,6 +66,8 @@ public class Hotel extends Location implements Classifiable, Payable, Visitable 
                 ", openingTime=" + openingTime +
                 ", closingTime=" + closingTime +
                 ", ticketPrice=" + ticketPrice +
+                ", name='" + name + '\'' +
+                ", cost=" + cost +
                 '}';
     }
 }
